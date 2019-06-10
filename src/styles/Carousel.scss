@@ -1,92 +1,162 @@
-#slideshow {
-  position: relative;
-  // width: 100%;
-  // padding: 10px;
-	}
-
 // #slideshow {
-//  div {
-//   position: absolute;
-// 	height: 700px; 
-// 	background-color: #FFD246;
-// 	img {
-// 		width:65%;
-// 		height: 100%;
+//   position: relative;
+//   // width: 100%;
+//   // padding: 10px;
 // 	}
-// 	div {
-// 		display:inline-block;
-// 		width:30%;
-// 		padding: 0 4rem
+
+// // #slideshow {
+// //  div {
+// //   position: absolute;
+// // 	height: 700px; 
+// // 	background-color: #FFD246;
+// // 	img {
+// // 		width:65%;
+// // 		height: 100%;
+// // 	}
+// // 	div {
+// // 		display:inline-block;
+// // 		width:30%;
+// // 		padding: 0 4rem
+// // 	}
+// //  }
+// // }
+
+
+// .carousel-fade {
+// 	.carousel-inner {
+// 			.item {
+// 					transition-property: opacity;
+// 			}
+			
+// 			.item,
+// 			.active.left,
+// 			.active.right {
+// 					opacity: 0;
+// 			}
+
+// 			.active,
+// 			.next.left,
+// 			.prev.right {
+// 					opacity: 1;
+// 			}
+
+// 			.next,
+// 			.prev,
+// 			.active.left,
+// 			.active.right {
+// 					left: 0;
+// 					transform: translate3d(0, 0, 0);
+// 			}
 // 	}
-//  }
+
+// 	.carousel-control {
+// 			z-index: 2;
+// 	}
 // }
 
 
-.carousel-fade {
-	.carousel-inner {
-			.item {
-					transition-property: opacity;
-			}
-			
-			.item,
-			.active.left,
-			.active.right {
-					opacity: 0;
-			}
 
-			.active,
-			.next.left,
-			.prev.right {
-					opacity: 1;
-			}
+// html, 
+// body, 
+// .carousel, 
+// .carousel-inner, 
+// .carousel-inner .item {
+// 	height: 100%;
+// }
 
-			.next,
-			.prev,
-			.active.left,
-			.active.right {
-					left: 0;
-					transform: translate3d(0, 0, 0);
-			}
+// .item:nth-child(1) {
+// 	background: #74C390;
+// }
+
+// .item:nth-child(2) {
+// 	background: #51BCE8;
+// }
+
+// .item:nth-child(3) {
+// 	background: #E46653;
+// }
+
+// .nextPrev {
+//   // position: absolute;
+//   width: 16rem;
+//   button {
+//     position: absolute;
+//     height: 5.625rem;
+//     width: 8rem;
+//     background: #fff !important;
+//     border: 1px solid rgba(0, 0, 0, 0.1);
+//     border-top: none;    
+//     transition: all 0.7s ease;
+//     opacity: 1;
+//   }
+// }
+
+// #cf {
+// 	position:relative;
+// 	height:281px;
+// 	width:450px;
+// 	margin:0 auto;
+//   }
+  
+//   #cf img {
+// 	position:absolute;
+// 	left:0;
+// 	-webkit-transition: opacity 1s ease-in-out;
+// 	-moz-transition: opacity 1s ease-in-out;
+// 	-o-transition: opacity 1s ease-in-out;
+// 	transition: opacity 1s ease-in-out;
+//   }
+
+//   @keyframes cf3FadeInOut {
+// 	0% {
+// 	opacity:1;
+//   }
+//   45% {
+//   opacity:1;
+//   }
+//   55% {
+//   opacity:0;
+//   }
+//   100% {
+//   opacity:0;
+//   }
+//   }
+  
+//   #cf3 img.top {
+//   animation-name: cf3FadeInOut;
+//   animation-timing-function: ease-in-out;
+//   animation-iteration-count: infinite;
+//   animation-duration: 10s;
+//   animation-direction: alternate;
+//   }
+
+#carouselExampleFade {
+	margin-bottom: 10rem;
+}
+
+.main {
+	padding: 0 6rem;
+}
+
+.carousel-item {
+	background-color: #FFD615
+}
+
+.infoContainer {
+	padding: 4rem;
+	width: 40%;
+	h2 {
+		border-bottom: 5px solid black;
+		font-size: 3rem;
+		color: black;
+		line-height: 1.3;
+   		font-weight: 900;
 	}
-
-	.carousel-control {
-			z-index: 2;
+	h5 {
+		color: #333333;
 	}
 }
 
-
-
-html, 
-body, 
-.carousel, 
-.carousel-inner, 
-.carousel-inner .item {
-	height: 100%;
-}
-
-.item:nth-child(1) {
-	background: #74C390;
-}
-
-.item:nth-child(2) {
-	background: #51BCE8;
-}
-
-.item:nth-child(3) {
-	background: #E46653;
-}
-
-.nextPrev {
-  // position: absolute;
-  width: 16rem;
-  button {
-    position: absolute;
-    height: 5.625rem;
-    width: 8rem;
-    background: #fff !important;
-    border: 1px solid rgba(0, 0, 0, 0.1);
-    border-top: none;    
-    transition: all 0.7s ease;
-    opacity: 1;
-  }
+.foodImg {
+	height: 100%
 }

@@ -13,6 +13,12 @@ module.exports = {
         // clientLogLevel: 'debug'
     },
     module: {
+        // loaders: [
+        //     {
+        //         test: require.resolve('wow.js/dist/wow.js'), 
+        //         loader: 'exports?this.WOW'
+        //      }
+        // ],
         rules: [{
             test: /\.js/,
             // loader: "babel-loader",

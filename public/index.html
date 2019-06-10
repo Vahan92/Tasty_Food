@@ -12,8 +12,10 @@
   <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet"> 
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
     integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/animate.css">
   <title>Document</title>
   <script type="text/javascript" src="./bundle.js"></script>
+  <script src="js/wow.min.js"></script>
 </head>
 
 <body class="page">
@@ -31,7 +33,7 @@
     <div class="main">
       <section>
 
-        <div id="slideshow">
+        <!-- <div id="slideshow">
           <div style="height: 700px; background-color: #FFD246">
             <img style="width:65%; height: 100%;" src="http://www.nfcpk.com/assets/img/slider/2.jpg" alt="Second slide">
             <div style="display:inline-block; width:30%; padding: 0 4rem">
@@ -46,39 +48,41 @@
           <div style="height: 700px; background-color: #FFD246">
             <img style="width:65%; height: 100%;" src="https://foodrevolution.org/wp-content/uploads/2018/04/blog-featured-diabetes-20180406-1330.jpg">
           </div>
-        </div>
+        </div> -->
+        <!-- <div id="cf">
+          <img class="bottom" src="http://www.nfcpk.com/assets/img/slider/2.jpg" />
+          <img class="top" src="https://foodrevolution.org/wp-content/uploads/2018/04/blog-featured-diabetes-20180406-1330.jpg" />
+        </div> -->
         <!-- <div class="nextPrev"><button>Psrevious</button><button>Next</button></div> -->
 
-        <!-- <div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel" style="height: 700px">
+        <div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel" style="height: 700px">
           <div class="carousel-inner">
             <div class="carousel-item active" style="display: flex">
               <div>
-                <img class="d-block w-100"
+                <img class="foodImg d-block w-100"
                   src="https://foodrevolution.org/wp-content/uploads/2018/04/blog-featured-diabetes-20180406-1330.jpg"
                   alt="First slide">
               </div>
-              <div>
-                <p>FEATURED POSTS</p>
-                <div>
+              <div class="infoContainer">
+                <h5>FEATURED POSTS</h5>
                   <h2>I am a Blogeer & Love Tasty Food</h2>
-                </div>
                 <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Recusandae facere nostrum tenetur sint
                   pariatur non distinctio iste repudiandae amet odit, architecto suscipit corporis neque officiis
                   molestiae dolore, accusamus debitis hic.</p>
+                  <button type="button" class="btn btn-dark">Read More <i class="fas fa-arrow-right"></i></button>
               </div>
             </div>
             <div class="carousel-item" style="display: flex">
               <div>
-                <img class="d-block w-100" src="http://www.nfcpk.com/assets/img/slider/2.jpg" alt="Second slide">
+                <img class="foodImg d-block w-100" src="http://www.nfcpk.com/assets/img/slider/2.jpg" alt="Second slide">
               </div>
-              <div>
-                <p>FEATURED POSTS</p>
-                <div>
+              <div class="infoContainer">
+                <h5>FEATURED POSTS</h5>
                   <h2>I am a Blogeer & Love Tasty Food</h2>
-                </div>
                 <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Praesentium impedit libero nesciunt
                   explicabo iusto. Aliquam earum beatae nostrum iusto a minus aperiam facere quis. Numquam, dolores.
                   Inventore quidem maiores repudiandae!</p>
+                  <button type="button" class="btn btn-dark">Read More <i class="fas fa-arrow-right"></i></button>
               </div>
             </div>
           </div>
@@ -90,7 +94,73 @@
             <span class="carousel-control-next-icon" aria-hidden="true"></span>
             <span class="sr-only">Next</span>
           </a>
-        </div> -->
+        </div>
+        <h2 class="navbar-brend">Recent Stories<span style="color: #ffd615; font-size:4rem">.</span></h2>
+        <div class="row">
+          <div class="col-md-6">
+            <div class="row">
+              <div class="col-md-6 fadeInUp">
+                <img src="https://i.ndtvimg.com/i/2017-04/food_240x180_41492684309.jpg" alt="">
+                <p>Dessert <span>------</span> March01, 2018</p>
+                <p>Tasty Delicious Foods</p>
+                <span>Read More</span>
+              </div>
+              <div class="col-md-6 fadeInUp">
+                <img src="https://i.ndtvimg.com/i/2017-04/food_240x180_41492684309.jpg" alt="">
+                <p>Dessert <span>------</span> March01, 2018</p>
+                <p>Tasty Delicious Foods</p>
+                <span>Read More</span>
+              </div>
+              <div class="col-md-6 fadeInUp"><img src="https://i.ndtvimg.com/i/2017-04/food_240x180_41492684309.jpg" alt="">
+                <p>Dessert <span>------</span> March01, 2018</p>
+                <p>Tasty Delicious Foods</p>
+                <span>Read More</span>
+              </div>
+              <div class="col-md-6">
+                <img src="https://i.ndtvimg.com/i/2017-04/food_240x180_41492684309.jpg" alt="">
+                <p>Dessert <span>------</span> March01, 2018</p>
+                <p>Tasty Delicious Foods</p>
+                <span>Read More</span>
+              </div>
+            </div>
+            </div>
+          <div class="a2 col-md-6 wow fadeInUp">
+            <img src="https://static.onecms.io/wp-content/uploads/sites/35/2015/01/04025402/waffle.jpg" alt="">
+            <span class="a12">Food</span>
+            <span class="a13" href="">Tasty & Delicious Food</span>
+            <span class="a14" href="">Read More</span>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-8">
+              <h2 class="navbar-brend">Feachured posts<span style="color: #ffd615; font-size:4rem">.</span></h2>
+              <div class="row">
+                <div class="col-md-4 fadeInUp">
+                  <img src="https://i.ndtvimg.com/i/2017-04/food_240x180_41492684309.jpg" alt="">
+                  <p>Dessert <span>------</span> March01, 2018</p>
+                  <p>Tasty Delicious Foods</p>
+                  <button type="button" class="btn btn-dark">Read More <i class="fas fa-arrow-right"></i></button>
+                </div>
+                <div class="col-md-4 fadeInUp">
+                  <img src="https://i.ndtvimg.com/i/2017-04/food_240x180_41492684309.jpg" alt="">
+                  <p>Dessert <span>------</span> March01, 2018</p>
+                  <p>Tasty Delicious Foods</p>
+                  <button type="button" class="btn btn-dark">Read More <i class="fas fa-arrow-right"></i></button>
+                </div>
+                <div class="col-md-4 fadeInUp"><img src="https://i.ndtvimg.com/i/2017-04/food_240x180_41492684309.jpg" alt="">
+                  <p>Dessert <span>------</span> March01, 2018</p>
+                  <p>Tasty Delicious Foods</p>
+                  <button type="button" class="btn btn-dark">Read More <i class="fas fa-arrow-right"></i></button>
+                </div>                
+              </div>
+              </div>
+            <div style="text-align: center" class="b1 col-md-4 wow fadeInUp">
+              <h2 style="text-align: center">About</h2>
+              <img class="rounded-circle" src="https://www.theoi.com/image/cult-aphrodite.jpg" alt="">
+              <p style="text-align: center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos quidem maiores iure quae magni? Maxime nemo vel in error accusamus ullam. Minus eius delectus commodi cupiditate assumenda odit dolores laborum?</p>
+              <input type="text">
+            </div>
+          </div>
 
       </section>
     </div>
