@@ -22,6 +22,6 @@ $('.carousel').carousel({
   interval: 500
 })
 
-new WOW().init();
+// new WOW().init();
 
 // console.log(add(100, 160))
